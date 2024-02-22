@@ -43,7 +43,7 @@ function Jobs() {
         <div className="container">
             <div className="row row-cols-1 row-cols-md-3 mb-3 g-4">
                 {jobsData.jobsJson.map((job: JobExperience) => (
-                        <WorkCard job={job} />
+                        <WorkCard job={job} key={job.id} />
                 ))}
             </div>
         </div>
