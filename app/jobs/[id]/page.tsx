@@ -77,8 +77,8 @@ function JobDisplay({ job_id }: {job_id: number}) {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse bg-primary" data-bs-parent="#accordionExample">
                         {jobData.links.map((link: LinkContainer, index) => (
-                            <div className="accordian-body p-2">
-                                <a href={link.url} className="text-light-gray" key={index}>{link.title}</a>
+                            <div className="accordian-body p-2" key={index}>
+                                <a href={link.url} className="text-light-gray">{link.title}</a>
                             </div>
                         ))}
                     </div>
