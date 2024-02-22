@@ -11897,20 +11897,44 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 
-.timeline-top {
-  border-radius: 5px 5px 0px 0px;
+.timeline {
+  border-left: 1px solid rgb(222, 143, 110);
+  position: relative;
+  list-style: none;
 }
 
-.timeline-bottom {
-  border-radius: 0px 0px 5px 5px;
+.timeline h3, .timeline .h3 {
+  color: #FFFFFF;
+}
+
+.timeline .timeline-item {
+  position: relative;
+  color: #D2D2D2;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: rgb(222, 143, 110);
+  top: 13px;
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
 }
 
 .btn-custom-grey {
   background-color: rgb(109, 116, 123);
+  color: #FFFFFF;
 }
 
 .btn-custom-grey:hover {
-  background-color: #e2e3e5;
+  background-color: #f8e9e2;
 }
 
 .list-group-item-tertiary {
