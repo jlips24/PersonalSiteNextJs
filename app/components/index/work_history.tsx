@@ -50,7 +50,7 @@ function Jobs() {
     )
 }
 
-export default async function WorkHistory() {
+export default function WorkHistory() {
     return (
         <div className="container">
             <Jobs />
