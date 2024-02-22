@@ -1,0 +1,40 @@
+{
+    "name": "Jake",
+    "info": [
+        {
+            "prompt": "origin",
+            "response": "Tappan, NY",
+            "response_type": "text"
+        },
+        {
+            "prompt": "residence",
+            "response": "New York, NY",
+            "response_type": "text"
+        },
+        {
+            "prompt": "education",
+            "response": "Boston University",
+            "response_type": "text"
+        },
+        {
+            "prompt": "major",
+            "response": "Computer Science",
+            "response_type": "text"
+        },
+        {
+            "prompt": "interests",
+            "response": "[code, cars, technology, photoshop, drones, video editing, music, video games]",
+            "response_type": "text"
+        },
+        {
+            "prompt": "links",
+            "response": [
+                ["resume.pdf", "/remume.pdf"],
+                ["jlips@bu.edu", "mailto:jlips@bu.edu"],
+                ["LinkedIn", "https://www.linkedin.com/in/jakelipson/"],
+                ["GitHub", "http://github.com/jlips24"]
+            ],
+            "response_type": "link-list"
+        }
+    ]
+}

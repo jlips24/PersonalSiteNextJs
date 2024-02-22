@@ -1,0 +1,138 @@
+[
+    {
+        "id": 6,
+        "title": "Paid Assasin",
+        "employer": "Wouldn't You Like to Know, Narc",
+        "location": "New York, NY",
+        "start_date": "January, 2024",
+        "end_date": "Present",
+        "short_description": "Thanks for checking out the source code. This is obviously a joke... unless...",
+        "bullet_points": [
+            "Responsible for the advertiser accounts flow of Spotify's advertising platform.",
+            "Designed and built the Spotify ad accounts API 2.0 using OpenAPI.",
+            "Developed features in a many micro services such as the ad accounts backend, business entity management, promo codes, and more.",
+            "Worked with management to continually improve our SCRUM and documentation practices."
+        ],
+        "hidden": true,
+        "links": []
+    },
+    {
+        "id": 5,
+        "title": "Software Engineer",
+        "employer": "Spotify",
+        "location": "New York, NY",
+        "start_date": "April, 2021",
+        "end_date": "December, 2023",
+        "short_description": "Worked on the Discovery Squad which was responsible for implementing new features and maintaining the ad account pipeline.",
+        "bullet_points": [
+            "Responsible for the advertiser accounts flow of Spotify's advertising platform.",
+            "Designed and built the Spotify ad accounts API 2.0 using OpenAPI.",
+            "Developed features in a many micro services such as the ad accounts backend, business entity management, promo codes, and more.",
+            "Worked with management to continually improve our SCRUM and documentation practices."
+        ],
+        "hidden": false,
+        "links": [
+            {
+                "title": "Spotify Homepage",
+                "url": "https://spotify.com"
+            },
+            {
+                "title": "Spotify Advertising",
+                "url": "https://ads.spotify.com/"
+            },
+            {
+                "title": "Spotify Ads API 2.0",
+                "url": "https://developer.spotify.com/documentation/ads-api/reference/v2.0/getAdAccounts"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Software Engineer",
+        "employer": "Noodle Partners",
+        "location": "New York, NY",
+        "start_date": "January, 2020",
+        "end_date": "April, 2021",
+        "short_description": "Primarily worked on the ETL team building and maintaining data pipelines and ingest systems for data ffrom and for our university partners.",
+        "bullet_points": [
+            "Built, maintained and implemented a complex Python ETL library.",
+            "Helped build web applications using Django and Flask",
+            "Supported the development of a custom in-house built Salesforce package.",
+            "Made business critical decisions ranging from software design to implementation of an AGILE workflow."
+        ],
+        "hidden": false,
+        "links": [
+            {
+                "title": "Noodle Partners Homepage",
+                "url": "https://www.noodle.com/"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Software Engineer Contractor",
+        "employer": "Noodle Pros",
+        "location": "New York, NY",
+        "start_date": "January, 2020",
+        "end_date": "April, 2021",
+        "short_description": "Brought on as a contractor to finsh a database migration to a new and improved system.",
+        "bullet_points": [
+            "Designed and led data migration to new and improved systems.",
+            "Continued to manage day to day database operations company-wide.",
+            "Dedicated time outside of normal work hours to ensure projects were completed."
+        ],
+        "hidden": false,
+        "links": [
+            {
+                "title": "Noodle Pros Homepage (Now Inspirica Pros)",
+                "url": "https://www.noodlepros.com/"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Software Engineer Intern",
+        "employer": "Noodle Management Services",
+        "location": "New York, NY",
+        "start_date": "May, 2019",
+        "end_date": "January, 2020",
+        "short_description": "Positioned as a shared resource between the various Noodle companies.",
+        "bullet_points": [
+            "Managed day to day database operations company-wide.",
+            "Implemented automated workflows using Python to increase company efficiency.",
+            "Migrated large datasets from Hubspot to Salesforce."
+        ],
+        "hidden": false,
+        "links": [
+            {
+                "title": "Noodle Companies",
+                "url": "https://companies.noodle.com/"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Product Zone Specialist",
+        "employer": "Apple",
+        "location": "Boston, MA",
+        "start_date": "September 2017",
+        "end_date": "March 2018",
+        "short_description": "Assisted customers with large purchasing decisions while learning how to deal with hardships that come with working in the retail sector.",
+        "bullet_points": [
+            "Identified customers’ requirements and mapped to compatible solutions.",
+            "Informed customers about new hardware and software.",
+            "Assisted customers in the setup of their new devices."
+        ],
+        "hidden": false,
+        "links": [
+            {
+                "title": "Apple Homepage",
+                "url": "https://apple.com/"
+            },
+            {
+                "title": "Apple Boylston Street Store",
+                "url": "https://apple.com/retail/boylstonstreet/"
+            }
+        ]
+    }
+]
