@@ -15,7 +15,6 @@ export default function WorkCard({ job }: { job: JobExperience }) {
                     height={36}
                     alt={job.employer.concat(" logo")}
                 />
-                {/* <h3 className="fw-bold pt-2">{job.employer}</h3> */}
                 <h4 className="pt-2">{job.title}</h4>
                 <h6>{job.start_date} - {job.end_date}</h6>
                 <p>{job.short_description}</p>
