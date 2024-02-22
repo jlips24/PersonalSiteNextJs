@@ -8,6 +8,8 @@
 
 [] Finalize design of `jobs/[id]` page
 
+[] Change `/resume` to serve static PDF instead of iframe
+
 ### v0.3
 
 [] Setup API endpoints for `About Me`: `/api/about`
