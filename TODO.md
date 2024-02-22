@@ -6,7 +6,7 @@
 
 [] Change favicon
 
-[] Finalize design of `jobs/[id]` page
+[X] Finalize design of `jobs/[id]` page
 
 ### v0.3
 
