@@ -11905,6 +11905,14 @@ textarea.form-control-lg {
   border-radius: 0px 0px 5px 5px;
 }
 
+.btn-custom-grey {
+  background-color: rgb(109, 116, 123);
+}
+
+.btn-custom-grey:hover {
+  background-color: #e2e3e5;
+}
+
 .list-group-item-tertiary {
   --bs-list-group-color: var(--bs-dark-text-emphasis);
   --bs-list-group-bg: rgb(40, 42, 53);

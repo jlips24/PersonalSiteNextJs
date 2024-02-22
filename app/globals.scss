@@ -6,7 +6,7 @@ $tertiary: rgb(152, 160, 165);
 
 $theme-colors: (
     "primary": $primary,
-    "secondary": $secondary,
+    "secondary": $gray-600,
 );
 
 // About Me Section
@@ -58,6 +58,15 @@ $theme-colors: (
 
 .timeline-bottom {
     border-radius: 0px 0px 5px 5px;
+}
+
+.btn-custom-grey {
+    background-color: rgb(109, 116, 123);
+
+}
+
+.btn-custom-grey:hover {
+    background-color: tint-color(rgb(109, 116, 123), 80%);
 }
 
 // Job Page

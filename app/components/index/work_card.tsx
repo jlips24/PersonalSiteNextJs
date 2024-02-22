@@ -30,7 +30,7 @@ export default function WorkCard({ job }: { job: JobExperience }) {
                             <p >{job.short_description}</p>
                         </div>
                         <Link href={`/jobs/${job.id}`}>
-                             <button className="btn btn-info mb-5">More Info</button>
+                             <button className="btn btn-custom-grey mb-5">More Info</button>
                          </Link>
                     </div>
                 </div>
