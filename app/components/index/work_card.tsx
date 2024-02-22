@@ -3,7 +3,7 @@
 import JobExperience from "@/app/types/job";
 import Link from "next/link";
 
-export default function WorkCard({ job }: { job: JobExperience }) { // TODO: Use interface to define type of parameter 'job'
+export default function WorkCard({ job }: { job: JobExperience }) {
     if (!job.hidden) {
             return (
             <div className="col mb-5">

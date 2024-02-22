@@ -1,4 +1,4 @@
-export default function WorkCardLoading() { // TODO: Use interface to define type of parameter 'job'
+export default function WorkCardLoading() {
     return (
         <div className='col'>
             <div className="card h-100 text-bg-secondary border-0" aria-hidden="true">
