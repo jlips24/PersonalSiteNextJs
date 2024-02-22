@@ -6,7 +6,7 @@
 
 [] Change favicon
 
-[] Finalize design of `jobs/[id]` page
+[X] Finalize design of `jobs/[id]` page
 
 [] Change `/resume` to serve static PDF instead of iframe
 
