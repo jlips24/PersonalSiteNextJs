@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 import WorkCard from "./work_card"
 import WorkCardLoading from './work_card_loading'
@@ -9,18 +9,20 @@ import JobsContainer from '@/app/types/jobsContainer'
 
 function Jobs() {
     const [jobsData, setJobsData] = useState<JobsContainer | null>(null)
-    const [isLoading, setLoading] = useState(true)
-
+    const [jobsLoading, setJobsLoading] = useState(true)
+    
     useEffect(() => {
         fetch('/api/get_jobs')
         .then((res) => res.json())
         .then((data) => {
             setJobsData(data)
-            setLoading(false)
+            setJobsLoading(false)
         })
+    
     }, [])
 
-    if (isLoading) return (
+    
+    if (jobsLoading) return (
         <div className="d-flex justify-content-center">
             <div className="spinner-border" role="status">
                 <span className="visually-hidden">Loading...</span>
@@ -64,7 +66,7 @@ function Jobs() {
     )
 }
 
-export default async function WorkHistory() {
+export default function WorkHistory() {
     return (
         <div className="container">
             <Jobs />
