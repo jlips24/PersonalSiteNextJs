@@ -1,4 +1,4 @@
-import Header from './components/layout/header'
+import Header from './components/index/header'
 import AboutMe from './components/index/about_me'
 import WorkHistory from './components/index/work_history'
 
