@@ -11859,6 +11859,24 @@ textarea.form-control-lg {
   color: rgb(210, 210, 210);
 }
 
+.display-3-custom {
+  font-size: calc(1.525rem + 2vw);
+}
+
+@media screen and (min-width: 770px) {
+  .display-3-custom {
+    font-size: calc(4rem + 2vw);
+  }
+}
+.display-5-custom {
+  font-size: calc(1.525rem + 2vw);
+}
+
+@media screen and (min-width: 770px) {
+  .display-5-custom {
+    font-size: calc(3rem + 2vw);
+  }
+}
 .aboutTermInnerTop {
   height: 15px;
   width: 80%;
