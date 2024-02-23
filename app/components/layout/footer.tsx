@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Footer() {
     const currentYear = new Date().getFullYear();
     return (
@@ -12,12 +14,24 @@ export default function Footer() {
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li className="ms-3">
                         <a className="svg-secondary" href="https://www.linkedin.com/in/jakelipson/" target="_blank">
-                            <img src="/svgs/linkedin.svg" className="bi" width="24" height="24" />
+                            <Image
+                                src="/svgs/linkedin.svg"
+                                width={24}
+                                height={24}
+                                alt="LinkedIn"
+                                className="bi"
+                            />
                         </a>
                     </li>
                     <li className="ms-3">
                         <a className="svg-secondary" href="https://github.com/jlips24" target="_blank">
-                        <img src="/svgs/github.svg" className="bi" width="27" height="27" />
+                            <Image
+                                src="/svgs/github.svg"
+                                width={27}
+                                height={27}
+                                alt="GitHub"
+                                className="bi"
+                            />
                         </a>
                     </li>
                 </ul>
