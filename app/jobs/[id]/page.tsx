@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import JobExperience from "@/app/types/job"
 import LinkContainer from "@/app/types/linkContainer"
+import Image from "next/image"
 
 function JobDisplay({ job_id }: {job_id: number}) {
     const [jobData, setJobData] = useState<JobExperience | null>(null)
@@ -48,20 +49,19 @@ function JobDisplay({ job_id }: {job_id: number}) {
     return (
         <>
         <div className="container text-light-gray">
-            <img src={"/images/job_headers/".concat(jobData.employer, ".jpg")} className="w-75 d-block mx-auto rounded-3 mb-3 mt-2" />
+            <Image 
+                src={"/images/job_headers/".concat(jobData.employer, ".jpg")}
+                width={1200}
+                height={630}
+                className="d-block mx-auto rounded-3 mb-3 mt-2"
+                alt={jobData.employer.concat(" header")}
+                style={{ width: '75%', height: 'auto'}}
+            />
             <h1 className="display-5 fw-bold text-white text-center">{jobData.employer}</h1>
             <h1 className="display-5 text-center">{jobData.title}</h1>
             <p className="text-center">{jobData.location}</p>
             <p className="text-center">{jobData.start_date} - {jobData.end_date}</p>
             <h6 className="display-6 col-md-12 fs-4">{jobData.short_description}</h6>
-            {/* <div className="row align-items-start text-center">
-                <div className="col">
-                    <p>{jobData.start_date} - {jobData.end_date}</p>
-                </div>
-                <div className="col">
-                    <p>{jobData.location}</p>
-                </div>
-            </div> */}
             <ul className="list-group list-group-flush rounded-4">
                 {jobData.bullet_points.map((bullet_point, index) => (
                     <li className="list-group-item list-group-item-tertiary p-3" key={index}>{bullet_point}</li>

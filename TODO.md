@@ -4,11 +4,11 @@
 
 [X] Optimize timeline
 
-[] Change favicon
+[X] Change favicon
 
 [X] Finalize design of `jobs/[id]` page
 
-[] Change `/resume` to serve static PDF instead of iframe
+[X] Change `/resume` to serve static PDF instead of iframe
 
 ### v0.3
 

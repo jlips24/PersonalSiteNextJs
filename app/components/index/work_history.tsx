@@ -33,7 +33,7 @@ function Jobs() {
 
     return (
         <div className='container'>
-        <section className='py-5 mx-5'>
+        <section className='pt-5 mx-4'>
             <ul className='timeline'>
             {jobsData.jobsJson.map((job: JobExperience) => (
                 <WorkCard job={job} key={job.id} />
