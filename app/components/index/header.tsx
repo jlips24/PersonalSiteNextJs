@@ -2,7 +2,7 @@
 
 export default function Header() {
     return (
-        <div className="container p-5 mb-4 g-3 text-tangerine">
+        <div className="container p-5 mb-4 g-3 text-tangerine bg-dark">
             <div className="row align-items-center">
                 <div className="col-5 text-end">
                     <h1 className="display-3">Jake Lipson</h1>

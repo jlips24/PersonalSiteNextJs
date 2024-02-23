@@ -69,13 +69,13 @@ function JobDisplay({ job_id }: {job_id: number}) {
             </ul>
 
             <div className="accordion accordion-primary" id="accordionExample">
-                <div className="accordion-item job-accordion-item">
+                <div className="accordion-item">
                     <h2 className="accordion-header">
-                    <button className="accordion-button collapsed job-accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         External Links
                     </button>
                     </h2>
-                    <div id="collapseOne" className="accordion-collapse collapse bg-primary" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" className="accordion-collapse collapse bg-dark" data-bs-parent="#accordionExample">
                         {jobData.links.map((link: LinkContainer, index) => (
                             <div className="accordian-body p-2" key={index}>
                                 <a href={link.url} className="text-light-gray">{link.title}</a>
