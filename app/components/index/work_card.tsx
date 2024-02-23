@@ -15,11 +15,11 @@ export default function WorkCard({ job }: { job: JobExperience }) {
                     height={36}
                     alt={job.employer.concat(" logo")}
                 />
-                <h4 className="pt-2">{job.title}</h4>
-                <h6>{job.start_date} - {job.end_date}</h6>
-                <p>{job.short_description}</p>
+                <h4 className="pt-2 fw-light">{job.title}</h4>
+                <h6 className="fw-light">{job.start_date} - {job.end_date}</h6>
+                <p className="fw-light">{job.short_description}</p>
                 <Link href={`/jobs/${job.id}`}>
-                    <button className="btn btn-custom-grey mb-5">More Info</button>
+                    <button className="btn btn-custom-grey mb-5 fw-light">More Info</button>
                 </Link>
             </li>
             </>

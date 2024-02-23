@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react'
 
 import WorkCard from "./work_card"
-import WorkCardLoading from './work_card_loading'
 import JobExperience from '../../types/job'
 import JobsContainer from '@/app/types/jobsContainer'
 
