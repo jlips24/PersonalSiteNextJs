@@ -3,6 +3,8 @@ $secondary: rgb(222, 143, 110);
 $tertiary: rgb(152, 160, 165);
 $light-gray: rgb(210, 210, 210);
 
+$mobile-width: 770px;
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 $theme-colors: (
@@ -12,6 +14,27 @@ $theme-colors: (
 
 .text-light-gray {
 	color: $light-gray;
+}
+
+// Header Section
+.display-3-custom {
+	font-size: calc(1.525rem + 2vw);
+}
+
+@media screen and (min-width: $mobile-width) {
+	.display-3-custom {
+		font-size: calc(4rem + 2vw);
+	}
+}
+
+.display-5-custom {
+	font-size: calc(1.525rem + 2vw);
+}
+
+@media screen and (min-width: $mobile-width) {
+	.display-5-custom {
+		font-size: calc(3rem + 2vw);
+	}
 }
 
 // About Me Section
