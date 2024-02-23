@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import JobExperience from "@/app/types/job"
 import LinkContainer from "@/app/types/linkContainer"
+import Image from "next/image"
 
 function JobDisplay({ job_id }: {job_id: number}) {
     const [jobData, setJobData] = useState<JobExperience | null>(null)
@@ -47,31 +48,42 @@ function JobDisplay({ job_id }: {job_id: number}) {
     
     return (
         <>
-        <div className="p-5 mb-4 bg-secondary text-dark rounded-4">
-            <div className="container-fluid py-5 text-center">
-                <h1 className="display-5 fw-bold">{jobData.title} @ {jobData.employer}</h1>
-                <img src={"/images/job_headers/".concat(jobData.employer, ".jpg")} className="w-75 rounded-3 mb-3 mt-2" />
-                <h6 className="display-6 col-md-12 fs-4">{jobData.short_description}</h6>
-                <div className="row align-items-start text-center pt-1">
-                    <div className="col">
-                        <p className="text-muted">{jobData.start_date} - {jobData.end_date}</p>
-                    </div>
-                    <div className="col">
-                        <p className="text-muted">{jobData.location}</p>
-                    </div>
-                </div>
-                <ul className="list-group list-group-flush rounded-4">
-                    {jobData.bullet_points.map((bullet_point, index) => (
-                        <li className="list-group-item list-group-item-tertiary p-3" key={index}>{bullet_point}</li>
-                    ))}
-                </ul>
-            </div>
-            <p>External Links</p>
-            <ul>
-                {jobData.links.map((link: LinkContainer, index) => (
-                    <li key={index}><a href={link.url}>{link.title}</a></li>
+        <div className="container text-light-gray">
+            <Image 
+                src={"/images/job_headers/".concat(jobData.employer, ".jpg")}
+                width={1200}
+                height={630}
+                className="d-block mx-auto rounded-3 mb-3 mt-2"
+                alt={jobData.employer.concat(" header")}
+                style={{ width: '75%', height: 'auto'}}
+            />
+            <h1 className="display-5 fw-bold text-white text-center">{jobData.employer}</h1>
+            <h1 className="display-5 text-center">{jobData.title}</h1>
+            <p className="text-center">{jobData.location}</p>
+            <p className="text-center">{jobData.start_date} - {jobData.end_date}</p>
+            <h6 className="display-6 col-md-12 fs-4">{jobData.short_description}</h6>
+            <ul className="list-group list-group-flush rounded-4">
+                {jobData.bullet_points.map((bullet_point, index) => (
+                    <li className="list-group-item list-group-item-tertiary p-3" key={index}>{bullet_point}</li>
                 ))}
             </ul>
+
+            <div className="accordion accordion-primary" id="accordionExample">
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        External Links
+                    </button>
+                    </h2>
+                    <div id="collapseOne" className="accordion-collapse collapse bg-dark" data-bs-parent="#accordionExample">
+                        {jobData.links.map((link: LinkContainer, index) => (
+                            <div className="accordian-body p-2" key={index}>
+                                <a href={link.url} className="text-light-gray">{link.title}</a>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
         </div>
         </>
     )
