@@ -1,6 +1,6 @@
 "use client"
 
-import JobExperience from "@/app/types/job";
+import JobExperience from "@/app/interfaces/job";
 import Link from "next/link";
 import Image from "next/image";
 

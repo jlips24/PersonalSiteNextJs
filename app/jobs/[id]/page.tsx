@@ -1,8 +1,8 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import JobExperience from "@/app/types/job"
-import LinkContainer from "@/app/types/linkContainer"
+import JobExperience from "@/app/interfaces/job"
+import LinkContainer from "@/app/interfaces/linkContainer"
 import Image from "next/image"
 
 function JobDisplay({ job_id }: {job_id: number}) {

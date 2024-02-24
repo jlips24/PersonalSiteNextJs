@@ -3,8 +3,8 @@
 import { useEffect, useState } from 'react'
 
 import WorkCard from "./work_card"
-import JobExperience from '../../types/job'
-import JobsContainer from '@/app/types/jobsContainer'
+import JobExperience from '../../interfaces/job'
+import JobsContainer from '@/app/interfaces/jobsContainer'
 
 function Jobs() {
     const [jobsData, setJobsData] = useState<JobsContainer | null>(null)
