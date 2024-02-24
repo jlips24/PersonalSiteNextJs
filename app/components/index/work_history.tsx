@@ -19,7 +19,6 @@ function Jobs() {
         })
     
     }, [])
-
     
     if (jobsLoading) return (
         <div className="d-flex justify-content-center">

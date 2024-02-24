@@ -4,7 +4,11 @@
 
 [] Setup contact form (new page AND bottom of index)
 
-[] Setup blog (md pr mdx files for posts)
+[X] Setup blog (md pr mdx files for posts)
+
+[] Implement paging on `/api/blog/get_posts`
+
+[] Redo styling of `blog/[slug]`
 
 ### v0.4
 
