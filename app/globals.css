@@ -11867,7 +11867,7 @@ textarea.form-control-lg {
   font-size: calc(1.525rem + 2vw);
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 770px) {
   .display-3-custom {
     font-size: calc(4rem + 2vw);
   }
@@ -11876,7 +11876,7 @@ textarea.form-control-lg {
   font-size: calc(1.525rem + 2vw);
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 770px) {
   .display-5-custom {
     font-size: calc(3rem + 2vw);
   }
