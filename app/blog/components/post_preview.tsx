@@ -3,7 +3,7 @@ export default function PostPreview () {
         <div className="card my-3 bg-dark font-monospace">
             <div className="row g-0">
                 <div className="col-md-4">
-                    <img src="/images/job_headers/spotify.jpg" className="img-fluid rounded h-100" style={{ objectFit: "cover" }} alt="..." />
+                    <img src="/images/job_headers/Spotify.jpg" className="img-fluid rounded h-100" style={{ objectFit: "cover" }} alt="..." />
                     {/* TODO: Use <Image> tage here instead of <img> */}
                 </div>
                 <div className="col-md-8">
