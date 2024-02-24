@@ -11,7 +11,7 @@ function Jobs() {
     const [jobsLoading, setJobsLoading] = useState(true)
     
     useEffect(() => {
-        fetch('/api/get_jobs')
+        fetch('/api/jobs/get_jobs')
         .then((res) => res.json())
         .then((data) => {
             setJobsData(data)

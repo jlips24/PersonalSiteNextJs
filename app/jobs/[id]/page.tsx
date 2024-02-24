@@ -11,7 +11,7 @@ function JobDisplay({ job_id }: {job_id: number}) {
     const [error, setError] = useState<string | null>(null)
     
     useEffect(() => {
-        fetch('/api/get_job?id='.concat(job_id.toString()))
+        fetch('/api/jobs/get_job?id='.concat(job_id.toString()))
         .then((res) => {
             if (!res.ok) {
                 throw new Error('Failed to fetch job data')
