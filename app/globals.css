@@ -11859,6 +11859,10 @@ textarea.form-control-lg {
   color: rgb(210, 210, 210);
 }
 
+.navbar-toggler-primary {
+  filter: brightness(0) saturate(100%) invert(89%) sepia(27%) saturate(3354%) hue-rotate(307deg) brightness(91%) contrast(91%);
+}
+
 .display-3-custom {
   font-size: calc(1.525rem + 2vw);
 }
