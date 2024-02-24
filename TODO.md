@@ -1,18 +1,12 @@
 # TODO
 
-### v0.2
-
-[X] Optimize timeline
-
-[X] Change favicon
-
-[X] Finalize design of `jobs/[id]` page
-
-[X] Change `/resume` to serve static PDF instead of iframe
-
-[X] Setup OpenGraph image
-
 ### v0.3
+
+[] Setup contact form (new page AND bottom of index)
+
+[] Setup blog (md pr mdx files for posts)
+
+### v0.4
 
 [] Setup API endpoints for `About Me`: `/api/about`
 
