@@ -10,6 +10,8 @@
 
 [] Redo styling of `blog/[slug]`
 
+[] Write first blog post
+
 ### v0.4
 
 [] Setup API endpoints for `About Me`: `/api/about`
