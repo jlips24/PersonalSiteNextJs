@@ -16,6 +16,11 @@ $theme-colors: (
 	color: $light-gray;
 }
 
+// Navbar
+.navbar-toggler-primary {
+	filter: brightness(0) saturate(100%) invert(89%) sepia(27%) saturate(3354%) hue-rotate(307deg) brightness(91%) contrast(91%);
+}
+
 // Header Section
 .display-3-custom {
 	font-size: calc(1.525rem + 2vw);
