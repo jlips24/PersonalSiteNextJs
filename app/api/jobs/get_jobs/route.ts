@@ -1,4 +1,4 @@
-import jobsJson from '../../../jobs.json'
+import jobsJson from '@/data/jobs.json'
 
 export async function GET() {
     return Response.json({ jobsJson })

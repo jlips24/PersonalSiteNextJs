@@ -1,5 +1,5 @@
 import { NextRequest } from 'next/server'
-import jobsJson from '../../../jobs.json'
+import jobsJson from '@/data/jobs.json'
 
 export async function GET(request: NextRequest) {
     const jobIdParam = request.nextUrl.searchParams.get("id");
