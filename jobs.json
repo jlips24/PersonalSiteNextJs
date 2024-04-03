@@ -1,20 +1,24 @@
 [
     {
         "id": 6,
-        "title": "Paid Assasin",
-        "employer": "Wouldn't You Like to Know, Narc",
+        "title": "Software Engineer Contractor",
+        "employer": "Homeaglow",
         "location": "New York, NY",
-        "start_date": "January, 2024",
+        "start_date": "April, 2024",
         "end_date": "Present",
-        "short_description": "Thanks for checking out the source code. This is obviously a joke... unless...",
+        "short_description": "A two week contract position to help refine some marketing tools",
         "bullet_points": [
-            "Responsible for the advertiser accounts flow of Spotify's advertising platform.",
-            "Designed and built the Spotify ad accounts API 2.0 using OpenAPI.",
-            "Developed features in a many micro services such as the ad accounts backend, business entity management, promo codes, and more.",
-            "Worked with management to continually improve our SCRUM and documentation practices."
+            "Redesigned marketing data strategy to reduce vendor cost by ~70%",
+            "Restored the company to comliance with the law by fixing and reqorking the email unsubscribe logic",
+            "Built tool to scrape and save daily spend from a vendor that doesn't supply that data through an API",
         ],
         "hidden": true,
-        "links": []
+        "links": [
+            {
+                "title": "Homeaglow Homepage",
+                "url": "https://www.homeaglow.com/"
+            }
+        ]
     },
     {
         "id": 5,
