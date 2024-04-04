@@ -8,7 +8,7 @@
         "end_date": "Present",
         "short_description": "A two week contract position to help refine some marketing tools",
         "bullet_points": [
-            "Redesigned marketing data strategy to reduce vendor cost by ~70%",
+            "Redesigned marketing data retention strategy to reduce vendor cost by ~60%",
             "Restored the company to comliance with the law by fixing and reqorking the email unsubscribe logic",
             "Built tool to scrape and save daily spend from a vendor that doesn't supply that data through an API",
         ],
