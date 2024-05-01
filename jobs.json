@@ -10,7 +10,7 @@
         "bullet_points": [
             "Redesigned marketing data retention strategy to reduce vendor cost by ~60%",
             "Restored the company to comliance with the law by fixing and reqorking the email unsubscribe logic",
-            "Built tool to scrape and save daily spend from a vendor that doesn't supply that data through an API",
+            "Built tool to scrape and save daily spend from a vendor that doesn't supply that data through an API"
         ],
         "hidden": true,
         "links": [
