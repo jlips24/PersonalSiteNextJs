@@ -12,8 +12,8 @@ export default function Categories() {
     return (
         <div className="container p-5 mb-4 g-3 text-tangerine bg-dark">
             {categories.map(category => (
-                <div>
-                    <h4 key={category}>{category}</h4>
+                <div key={category}>
+                    <h4>{category}</h4>
                     <hr/>
                 </div>
             ))}
