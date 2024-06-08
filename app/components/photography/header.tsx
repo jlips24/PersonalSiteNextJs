@@ -9,7 +9,7 @@ export default function Header() {
                 </div>
                 <div className="col-7">
                     <h1 className="display-5-custom fw-bold">
-                        Some pictures I've taken around the world.
+                        {"Some pictures I've taken around the world."}
                     </h1>
                 </div>
             </div>
