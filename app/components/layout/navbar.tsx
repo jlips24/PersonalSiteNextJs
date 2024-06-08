@@ -19,7 +19,7 @@ export default function Navbar() {
                         <a className="nav-link text-secondary" aria-current="page" href="/">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-secondary" href="/blog">Blog</a>
+                        <a className="nav-link text-secondary" href="/photography">Photography</a>
                     </li>
                 </ul>
             </div>
