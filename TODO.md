@@ -4,7 +4,7 @@
 
 [] Setup contact form (new page AND bottom of index)
 
-[] Setup blog (md pr mdx files for posts)
+[] Setup photography page (md pr mdx files for posts)
 
 ### v0.4
 
