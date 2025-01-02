@@ -1,5 +1,27 @@
 [
     {
+        "id": 7,
+        "title": "Software Engineer III",
+        "employer": "Noodle",
+        "location": "New York, NY",
+        "start_date": "December, 2024",
+        "end_date": "Present",
+        "short_description": "Working on the Noodle Partners team building and maintaining data pipelines and ingest systems for data from and for our university partners.",
+        "bullet_points": [
+            "Built, maintained and implemented a complex Python ETL library.",
+            "Helped build web applications using Django and Flask",
+            "Supported the development of a custom in-house built Salesforce package.",
+            "Made business critical decisions ranging from software design to implementation of an AGILE workflow."
+        ],
+        "hidden": false,
+        "links": [
+            {
+                "title": "Noodle Homepage",
+                "url": "https://www.noodle.com/"
+            }
+        ]
+    },
+    {
         "id": 6,
         "title": "Software Engineer Contractor",
         "employer": "Homeaglow",
