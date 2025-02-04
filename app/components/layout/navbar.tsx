@@ -19,7 +19,8 @@ export default function Navbar() {
                         <a className="nav-link text-secondary" aria-current="page" href="/">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-secondary" href="/blog">Blog</a>
+{/*                         <a className="nav-link text-secondary" href="/blog">Blog</a> */}
+                        <a className="nav-link text-secondary" href="https://tinkerteq.com" target="_blank">Blog</a>
                     </li>
                 </ul>
             </div>
