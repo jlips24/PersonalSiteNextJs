@@ -22,7 +22,7 @@ export default function AboutMe() {
 					<p className="response">=&gt; [code, cars, technology, photoshop, drones, video editing, music, video games]</p>
 
 					<p className="prompt">&gt; Jake.links</p>
-					<p className="response">=&gt; <a href="/pdfs/JakeLipsonResume.pdf" target="_blank">resume.pdf</a></p>
+{/* 					<p className="response">=&gt; <a href="/pdfs/JakeLipsonResume.pdf" target="_blank">resume.pdf</a></p> */}
 					<p className="response">=&gt; <a href="mailto:jlips@bu.edu">jlips@bu.edu</a></p>
 					<p className="response">=&gt; <a href="https://www.linkedin.com/in/jakelipson/" target="_blank">LinkedIn</a></p>
 					<p className="response">=&gt; <a href="https://github.com/jlips24" target="_blank">GitHub</a></p>
