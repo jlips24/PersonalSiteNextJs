@@ -47,7 +47,7 @@
         "title": "Software Engineer",
         "employer": "Spotify",
         "location": "New York, NY",
-        "start_date": "April, 2021",
+        "start_date": "April, 2022",
         "end_date": "December, 2023",
         "short_description": "Worked on the Discovery Squad which was responsible for implementing new features and maintaining the ad account pipeline.",
         "bullet_points": [
@@ -78,7 +78,7 @@
         "employer": "Noodle Partners",
         "location": "New York, NY",
         "start_date": "January, 2020",
-        "end_date": "April, 2021",
+        "end_date": "April, 2022",
         "short_description": "Primarily worked on the ETL team building and maintaining data pipelines and ingest systems for data ffrom and for our university partners.",
         "bullet_points": [
             "Built, maintained and implemented a complex Python ETL library.",
